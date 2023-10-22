@@ -1,0 +1,66 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+h1 {
+  margin: 30px;
+
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #fff;
+}
+
+p {
+  font-size: 2rem;
+  color: #fff;
+
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+
+
+}
+
+body {
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Share Tech', sans-serif;
+  font-family: 'Silkscreen', cursive;
+  background-color: black;
+  text-align: center;
+ 
+}
+
+.button-8bit {
+  display: inline-block;
+  background-color: black;
+  color: #FFF;
+  padding: 10px 20px;
+  border: 2px solid #FFF;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Share Tech', sans-serif;
+  font-family: 'Silkscreen', cursive;
+}

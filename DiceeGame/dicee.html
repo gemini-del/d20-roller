@@ -1,0 +1,55 @@
+<!DOCTYPE html> <!-- Declares the document type and version of HTML (HTML5) -->
+<html lang="it"> <!-- Root element of the page, setting language of the document to Italian -->
+
+<head> <!-- Contains meta information and links to external resources -->
+    <meta charset="UTF-8"> <!-- Sets the character encoding to be used in the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the webpage responsive by setting the viewport to the width of the device -->
+
+    <!-- Links to preconnect to the Google Fonts to improve loading performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Link to include a variety of font styles from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Assistant:wght@300&family=Chakra+Petch&family=Share+Tech&family=Silkscreen&display=swap" rel="stylesheet">
+    
+    <!-- Link to an external JavaScript file -->
+    <script src="script.js"></script>
+
+    <!-- Link to an external CSS stylesheet which holds styles for the webpage -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <title>D20 Roller</title> <!-- Sets the title of the webpage that appears on the tab in the browser -->
+</head>
+
+<body> <!-- Contains the content that will be visible on the webpage -->
+
+    <h1>D20 Roller</h1> <!-- A heading representing the title of the application -->
+
+    <!-- An image related to the application, with inline styles to manage its width -->
+    <img src="https://cdn.pixabay.com/photo/2021/02/16/16/22/d-d-6021557_1280.png" alt="" style="width: 30%;">
+
+    <!-- A paragraph showing the result of the dice roll, initially set to '-' -->
+    <p>Result: <span id="result">-</span></p>
+
+    <!-- A button that, when clicked, presumably triggers the dice roll functionality -->
+    <button id="rollButton" class="button-8bit">Roll D20</button>
+
+     <!-- Footer -->
+     <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">D20 Roller, 2023</span>
+          </div>
+        </footer>
+    </div>
+    
+    <!-- Link to an external JavaScript file, likely containing functionality related to the dice roll -->
+    <script src="script/app.js"></script>
+
+    
+</body>
+</html>
+
